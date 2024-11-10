@@ -1,0 +1,136 @@
+body{
+    background-color: rgb(17, 17, 17);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    align-items: center;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header a{
+    margin: 2rem;
+    
+}
+header{
+    height: 6rem;
+    width: 100%;
+    border: solid 1px beige;
+}
+p,h1,ol,#FQ_Container, button{
+    color: aliceblue;
+}
+p{
+    font-size: 1.5rem;
+}
+span{
+    color:aqua;
+}
+#aaa{
+   
+    transition: 1.9s;
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+font-size: 2rem;
+color: rgb(43, 217, 248);
+}
+#hero{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.FQ{
+    height: 15rem;
+    width: 15rem;
+    border: 1px solid rgb(43, 217, 248) ;
+    background-color: rgb(3, 40, 51);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+}
+.FQ img{
+    height: 10rem;
+    width: 13rem;
+}
+#FQ_Container{
+    width: 90vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+    
+}
+#Money{
+    height: 4rem;
+    width: 10rem;
+    background-color: rgb(3, 40, 51);
+    border-radius: 10px;
+    border: none;
+    font-weight: bolder;
+    font-size: 15px;
+    cursor: pointer;
+}
+#l1 li{
+ font-size: 25px;
+ font-weight: bolder;
+ 
+}
+#ac{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px red;
+    
+}
+#ac div{
+   margin-bottom: 2rem; 
+}
+.activ{
+    color: aqua;
+}
+#who{
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+#who img{
+padding: 10rem;
+border: solid 1px wheat;
+}
+
+#prog img{
+    padding: 2rem;
+border: solid 1px wheat;
+margin-right: 1rem;
+}
+#prog div:not(.line){
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+border: solid 1px wheat;
+margin: 1rem;
+}
+.line{
+    height: 1rem;
+    width: 10rem;
+border: solid 1px wheat;
+border-radius:20px;
+margin-top: 2.2rem;
+margin-left: 1rem;
+}
