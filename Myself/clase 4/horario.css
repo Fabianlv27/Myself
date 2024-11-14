@@ -2,14 +2,19 @@ table,th,tr,td{
     
     border-collapse: collapse;
   }
+  td{
+    border: solid 1px ;
+    text-align: center;
+  }
 th{
     color: rgb(127, 229, 255);
     background-color: rgba(4, 56, 116, 0.493);
-    border: solid 1px  ;
+    border: solid 1px  rgb(127, 229, 255);
     box-shadow: 0px 0px 10px rgba(8, 209, 166, 0.616) ;
 }
 .Hora{
     color:rgb(127, 229, 255) ;
+
  height: 40px;
  width: 100px;
  background-color: rgba(5, 57, 116, 0.959);
